@@ -1,0 +1,15 @@
+{
+    "port" : 80,
+    "dbsql" : "db.sql",
+    "database" : {
+        "host"     : "10.11.0.3",
+        "port"     : 3306,
+        "username" : "coiot",
+        "password" : "coiotpassword",
+        "prod" : true
+    },
+    "mosca" : {
+        "port"     : 1883
+    },
+    "rootpassword" : "coiotpassword"
+}

@@ -1,0 +1,18 @@
+{
+  "name": "coiothub",
+  "version": "1.0.0",
+  "description": "CoIoT Hub",
+  "author": "Copyright (c) 2017 <corruptedproject@yandex.ru>",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "dependencies": {
+    "express": "^4.16.1",
+    "mosca": "^2.8.2",
+    "body-parser" : "^1.18.2",
+    "http-status-codes" : "^1.3.0",
+    "promise-mysql": "^3.3.1",
+    "ping": "^0.2.2"
+  }
+}
